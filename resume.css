@@ -1,0 +1,19 @@
+#resume-title{
+    color: #B5EAD7;
+}
+
+#resume-title::after{
+    content: "";
+    margin-left: 5px;
+    width: 5px;
+    height: 40px;
+    background: black;
+    display: inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+}
+  
+@keyframes cursor-blink {
+      0% {
+        opacity: 0;
+      }
+}

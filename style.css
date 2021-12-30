@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Josefin+Sans&family:wght@200,300,400=Lato&family=Manrope:wght@800&family=Mukta&family=Nunito&family=Nunito+Sans&family=Oooh+Baby&family=Poppins:wght@400;600&family=Quicksand&family=Raleway&family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
+*{
+    font-family: 'Work Sans';
+    margin: 0;
+    background-color: ghostwhite;
+}
+
+#home-title{
+    font-size: 500%;
+    margin-top: 210px;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+.title{
+    font-family: 'Josefin Sans';
+    font-size: 300%;
+    margin-bottom: 10px;
+}
+
+#home-title::after{
+  content: "";
+  width: 5px;
+  height: 65px;
+  background: black;
+  display: inline-block;
+  animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+    0% {
+      opacity: 0;
+    }
+  }
+
+.description{
+    font-size: 150%;
+}
+
+#home-description{
+    font-size: 25px;
+}
+
+.home-links{
+    text-align: center;
+    margin: 40px;
+}
+
+.home-links a{
+    text-decoration: none;
+    background-color: inherit;
+    color: white;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+.button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    }
+  
+.button:hover {
+    transform: translateY(-7px);
+ }
+
+ .button a:hover {
+    color: black;
+    transform: translateY(-7px);
+ }
+
+#code-btn{
+    background-color: #FF9AA2;
+}
+
+#code-btn:hover{
+    box-shadow: 0px 15px 20px rgba(244,172,173, 0.6);
+}
+
+#design-btn{
+    background-color: #FFB7B2;
+}
+
+#design-btn:hover{
+    box-shadow: 0px 15px 20px rgba(250,214,165, 0.6);
+}
+
+#writing-btn{
+    background-color: #f8c4a1;
+}
+
+#writing-btn:hover{
+    box-shadow: 0px 15px 20px rgba(252,251,182, 0.6);
+}
+#projects-btn{
+    background-color: #caeb95;
+}
+
+#projects-btn:hover{
+    box-shadow: 0px 15px 20px rgba(201,249,190, 0.6);
+}
+#resume-btn{
+    background-color: #B5EAD7;
+}
+
+#resume-btn:hover{
+    box-shadow: 0px 15px 20px rgba(155,246,252, 0.6);
+}
+
+#about-btn{
+    background-color: #C7CEEA;
+}
+
+#about-btn:hover{
+    box-shadow: 0px 15px 20px rgba(160,195,250, 0.6);
+}
+
+.fab{
+    color: black;
+    font-size: 180%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.fab:hover{
+    color: #d4d0ff;
+    transform: scale(1.2);
+}
+
+#logo{
+    width: 25%;
+    transition: .2s;
+}
+
+#logo:hover{
+    transform: scale(1.1);
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px;
+}
+
+.links a{
+    text-decoration: none;
+    background-color: inherit;
+    color: white;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.heading{
+    margin: 20px;
+}

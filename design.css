@@ -1,0 +1,56 @@
+.image-row {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.zoom-image {
+    width: 300px; 
+    height: 300px;
+    overflow: hidden; 
+    text-align: center;
+}
+
+.insta-image{
+    width: auto;
+    height: 250px;
+    margin: 25px;
+}
+
+.zoom-image img {
+    transition: transform .5s ease;
+}
+  
+.zoom-image:hover img {
+    transform: scale(1.2);
+}
+
+.design-image {
+    width: auto;
+    height: 293px;
+    margin: 3px;
+}
+
+#design-title{
+    color: #FFB7B2;
+}
+
+#design-title::after{
+    content: "";
+    margin-left: 5px;
+    width: 5px;
+    height: 40px;
+    background: black;
+    display: inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+  }
+  
+  @keyframes cursor-blink {
+      0% {
+        opacity: 0;
+      }
+    }
