@@ -17,3 +17,8 @@
         opacity: 0;
       }
 }
+
+.resume{
+    background-color: gray;
+    margin: 20px;
+}
