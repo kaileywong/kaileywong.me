@@ -1,0 +1,58 @@
+#projects-title{
+    color: #caeb95;
+}
+
+#projects-title::after{
+    content: "";
+    margin-left: 5px;
+    width: 5px;
+    height: 40px;
+    background: black;
+    display: inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+}
+  
+@keyframes cursor-blink {
+      0% {
+        opacity: 0;
+      }
+}
+
+.row {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1.5%;
+  margin-top: 1.5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.project{
+  margin-top: 20px;
+  text-align: left;
+  display: flex;
+  font-size: 120%;
+}
+
+.project-type{
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.project-text{
+  flex-grow: 1;
+  line-height: 1.5em;
+}
+
+.pic {
+  transition: .5s ease;
+  flex-grow: 1;
+  width: 300px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+
+.pic:hover{
+    transform: scale(1.1);
+}

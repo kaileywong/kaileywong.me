@@ -19,6 +19,86 @@
 }
 
 .resume{
-    background-color: gray;
     margin: 20px;
+    margin-top: 0px;
+    padding: 20px;
+    border-top: none;
+    background-color: ghostwhite;
+    line-height: 2em;
+    display: none;
+    /* animation: fadeEffect 1s; */
 }
+
+@keyframes fadeEffect {
+    0% {opacity: 0;}
+    25% {opacity: 0.25}
+    50% {opacity: 0.5}
+    75% {opacity: 0.75}
+    100% {opacity: 1;}
+  }
+
+.section-title{
+    text-transform: uppercase;
+    padding: 30px 0 10px;
+}
+
+.resume-place{
+    /* font-weight: normal; */
+    padding-top: 10px;
+}
+
+.resume-description{
+    line-height: 1.5em;
+}
+
+*{
+    background-color: inherit;
+}
+
+li{
+    line-height: 1.5em;
+}
+
+a{
+    color: #499ea1;
+}
+
+.tab {
+    margin: 20px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    background-color: rgba(181, 234, 215, .3);
+    display: flex;
+  }
+  
+.tab button {
+    flex-grow: 1;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 120%;
+}
+
+.tab button:hover {
+background-color: #499ea1;
+}
+
+.tab button.active {
+background-color: #B5EAD7;
+}
+
+.skills-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-section{
+    flex-grow: 1;
+}
+
+
+  

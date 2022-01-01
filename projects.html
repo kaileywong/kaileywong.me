@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="projects.css">
   <link rel="icon" href="logo.png">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
@@ -18,12 +19,45 @@
       <button id="code-btn" class="button"><a href="code.html">Code</a></button>
       <button id="design-btn" class="button"><a href="design.html">Design</a></button>
       <button id="writing-btn" class="button"><a href="writing.html">Writing</a></button>
-      <button id="projects-btn" class="button"><a href="projects.html">Projects</a></button>
+      <button id="projects-btn" class="button"><a style="color:black;" href="projects.html">Projects</a></button>
       <button id="resume-btn" class="button"><a href="resume.html">Resume</a></button>
       <button id="about-btn" class="button"><a href="about.html">About</a></button>
     </div>
   </div>
 
-</body>
+  <div class="heading"> 
+    <h1 id="projects-title" class="title"></h1>
+    <p class="description"> project portfolio </p>
+  </div>
 
+  <div class="row">
+    <div class="project">
+      <a href="https://stemfromscratch.org" target="_blank"><img class="pic" src="stemfromscratch.png"></a>
+      <div class="project-text">
+        <h2 class="project-title">STEM From Scratch</h2>
+        <p class="project-type">Education, STEM</p>
+        <p class="project-description">STEM From Scratch is a student-run organization that aims to provide equal access to STEM opportunities for students around the world. 
+          Working with the founder of STEM From Scratch, as the executive director, I developed the project from a website into an organization with fiscal sponsorship from a 501(c)(3) nonprofit. 
+          I developed an organizational structure for the team, creating a leadership team and starting 5 new departments.
+          I also established branding guidelines, redesigned the website and social media, expanded social media presence, initiated the newsletter project, created an onboarding system for new members, and developed the blog. 
+          </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script>
+  var i = 0;
+  var txt = 'proactive projects';
+  var speed = 80;
+  function typewriter() {
+    if (i < txt.length) {
+      document.getElementById("projects-title").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typewriter, speed);
+    }
+  }
+
+typewriter();
+</script>
 </html>
