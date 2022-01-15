@@ -33,12 +33,23 @@
   <div class="device-row">
     <div class="project">
       <a href="https://bit.ly/aboutGreenHouse" target="_blank"><img class="project-image bob phone" src="code/greenhouse.png"></a>
+      <!-- <img onclick="displayModal('greenhouse-modal');" class="project-image bob phone" src="code/greenhouse.png"> -->
       <div class="project-text">
         <h2 class="project-title">GreenHouse</h2>
         <p class="project-stack">Swift, XCode, GitHub, Figma</p>
         <p class="project-description">A mobile iOS application that aims to provide a more accessible way to teach people ways to be sustainable. This app can be used by people of all ages who are interested in taking small steps to change their way of living. Primarily worked on wireframing the interface and programming the application. Created as a final project for Kode With Klossy.</p>
       </div>
     </div>
+  </div>
+
+  <!-- TODO: finish modals -->
+<!--   
+  <div id="greenhouse-modal" class="modal">
+    <div class="modal-title">GreenHouse</div>
+    <span onclick="closeModal('greenhouse-modal');" class="close">&times;</span>
+ 
+    <iframe id="greenhouse-slides" src="https://docs.google.com/presentation/d/e/2PACX-1vRWCVqkaM5YvNSnlG-CUrwAF7hRoC4PniDPu16JpLlL_4kxkkRNRzlaI0xhVjitbbFIy0Z90t9trYmh/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  
   </div>
   <div class="device-row">
     <div class="project">
@@ -49,7 +60,7 @@
         <p class="project-description">A website to document recipes I learned during summer 2020. Coded as a summer project after having self-taught myself HTML, CSS, and Javascript.</p>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="device-row">
     <div class="project">
       <a href="https://codepen.io/kaileywong/full/PozeKyq" target="_blank"><img class="project-image bob computer" src="code/carbonfootprintcalc.png"></a>
@@ -85,5 +96,13 @@
   }
 
 typewriter();
+
+function displayModal(modalID) {
+  document.getElementById(modalID).style.display = "block";
+}
+
+function closeModal(modalID){
+  document.getElementById(modalID).style.display = "none";
+}
 </script>
 </html>
