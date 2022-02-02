@@ -6,17 +6,23 @@
     background-color: ghostwhite;
 }
 
-#home-title{
-    font-size: 500%;
-    margin-top: 210px;
-    margin-bottom: 50px;
-    font-weight: 300;
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .title{
     font-family: 'Josefin Sans';
     font-size: 300%;
     margin-bottom: 10px;
+}
+
+#home-title{
+    font-size: 500%;
+    margin-bottom: 30px;
+    font-weight: 300;
 }
 
 #home-title::after{
@@ -42,9 +48,13 @@
     font-size: 25px;
 }
 
+.socials{
+    margin: 10px 0;
+}
+
 .home-links{
     text-align: center;
-    margin: 40px;
+    margin: 30px;
 }
 
 .home-links a{
