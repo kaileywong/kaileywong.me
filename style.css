@@ -98,7 +98,7 @@
 }
 
 #design-btn:hover{
-    box-shadow: 0px 15px 20px rgba(250,214,165, 0.6);
+    box-shadow: 0px 15px 20px rgba(250, 196, 165, 0.6);
 }
 
 #writing-btn{
@@ -106,7 +106,7 @@
 }
 
 #writing-btn:hover{
-    box-shadow: 0px 15px 20px rgba(252,251,182, 0.6);
+    box-shadow: 0px 15px 20px rgba(252, 224, 182, 0.6);
 }
 #projects-btn{
     background-color: #caeb95;
