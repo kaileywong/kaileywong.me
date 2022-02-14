@@ -1,9 +1,8 @@
- 
-#writing-title{
+#writing-title {
     color: #f8c4a1;
 } 
 
-#writing-title::after{
+#writing-title::after {
     content: "";
     margin-left: 5px;
     width: 5px;
@@ -11,12 +10,6 @@
     background: black;
     display: inline-block;
     animation: cursor-blink 1.5s steps(2) infinite;
-}
-  
-@keyframes cursor-blink {
-      0% {
-        opacity: 0;
-      }
 }
 
 .timeline {
@@ -26,51 +19,51 @@
   }
   
 .timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: black;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    margin-left: -3px;
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: -3px;
 }
   
-  .container {
-    padding: 10px 40px;
-    position: relative;
-    width: 50%;
-    left: 0;
+.container {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+  left: 0;
   }
   
   /* The circles on the timeline */
-  .container::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: white;
-    border: 4px solid #ffb380;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-    left: -16px;
-  }
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #ffb380;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+  left: -16px;
+}
   
   /* The actual content */
   .content {
-    padding: 20px 30px;
-    position: relative;
-    border-radius: 6px;
-  }
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 6px;
+}
 
-  .container a{
-      color: burlywood;
-      font-weight: 500;
-  }
+.container a{
+    color: burlywood;
+    font-weight: 500;
+}
 
-#pencil{
+#pencil {
   margin-left: 60%;
   margin-top: -50%;
 }

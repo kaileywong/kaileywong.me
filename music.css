@@ -1,0 +1,43 @@
+#music-title{
+    color: #fad77e;
+} 
+
+#music-title::after{
+    content: "";
+    margin-left: 5px;
+    width: 5px;
+    height: 40px;
+    background: black;
+    display: inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 200%;
+}
+  
+.content{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.content-frame{
+    margin: 20px;
+    overflow: auto;
+    width: 45%;
+}
+
+.content-description-title{
+    font-weight: bold;
+}
+
+.content-description{
+    font-style: italic;
+}
+
+audio{
+    margin-bottom: 20px;
+}
