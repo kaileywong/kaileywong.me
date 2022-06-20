@@ -2,6 +2,10 @@
     color: #B5EAD7;
 }
 
+body {
+    background-color: ghostwhite;
+}
+
 #resume-title::after{
     content: "";
     margin-left: 5px;
@@ -17,7 +21,7 @@
     margin-top: 0px;
     padding: 20px;
     border-top: none;
-    background-color: ghostwhite;
+    background-color: whitesmoke;
     line-height: 2em;
     display: none;
     /* animation: fadeEffect 1s; */
