@@ -14,7 +14,10 @@
   
 #about-content{
   display: flex;
-  margin-top: 10vh;
+  margin: 50px 15% 0;
+  padding: 3em;
+  border-radius: 30px;
+  background-color: #C7CEEA;
 }
 
 #profile-pic{
@@ -27,4 +30,7 @@
 #bio{
   margin: 0 40px;
   line-height: 1.5em;
+  background-color: #C7CEEA;
+  display: flex;
+  align-items: center;
 }
