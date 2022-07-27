@@ -33,4 +33,11 @@
   background-color: #C7CEEA;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#bio p{
+  margin: 10px 0;
+  background-color: inherit;
 }
