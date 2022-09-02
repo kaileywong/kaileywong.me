@@ -27,7 +27,7 @@
   </div>
 
   <div class="heading"> 
-    <h1 id="music-title" class="title">musical melodies</h1>
+    <h1 id="music-title" class="title"></h1>
     <p class="description"> music portfolio </p>
 
   <div class="performances">
@@ -255,22 +255,7 @@
         </div> -->
     </div>
   </div>
-  
-
-
 </body>
-<script>
-  var i = 0;
-  var txt = 'musical melodies';
-  var speed = 80;
-  function typewriter() {
-    if (i < txt.length) {
-      document.getElementById("projects-title").innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typewriter, speed);
-    }
-  }
+<script src="script.js"></script>
 
-typewriter();
-</script>
 </html>

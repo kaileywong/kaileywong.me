@@ -139,29 +139,7 @@
       </div>
     </div>
   </div>
-
 </body>
-<script>
-  var i = 0;
-  var txt = 'coded creations';
-  var speed = 80;
-  function typewriter() {
-    if (i < txt.length) {
-      document.getElementById("code-title").innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typewriter, speed);
-    }
-  }
-
-  typewriter();
-
-  function displayModal(modalID) {
-    document.getElementById(modalID).style.display = "block";
-  }
-
-  function closeModal(modalID) {
-    document.getElementById(modalID).style.display = "none";
-  }
-</script>
+<script src="script.js"></script>
 
 </html>

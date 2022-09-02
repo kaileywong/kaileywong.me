@@ -679,41 +679,7 @@
   </div>
 
 </body>
-<script>
-  var i = 0;
-  var txt = 'education, experience, etc.';
-  var speed = 80;
-  function typewriter() {
-    if (i < txt.length) {
-      document.getElementById("resume-title").innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typewriter, speed);
-    }
-  }
-
-  typewriter();
-
-  function openContent(evt, cat) {
-    // Declare all variables
-    var i, resume, tablinks;
-
-    resume = document.getElementsByClassName("resume");
-    for (i = 0; i < resume.length; i++) {
-      resume[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cat).style.display = "block";
-    evt.currentTarget.className += " active";
-  }
-
-  document.getElementById("default").click();
-</script>
+<script src="resume.js"></script>
+<script src="script.js"></script>
 
 </html>
