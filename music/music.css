@@ -36,3 +36,25 @@
 audio{
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 1280px) {
+    .content-frame {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-description-title {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .content-description {
+        text-align: center;
+    }
+    
+    iframe {
+        width: 70vw;
+        height: 2*auto;
+    }
+}

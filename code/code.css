@@ -28,6 +28,7 @@
   display: flex;
   line-height: 2em;
   font-size: 120%;
+  align-items: center;
 }
 
 .project-text{
@@ -114,4 +115,11 @@
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project {
+       flex-direction: column;
+       justify-content: center;
+    }
 }

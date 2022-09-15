@@ -166,6 +166,7 @@
 .links{
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     margin: 40px;
 }
 

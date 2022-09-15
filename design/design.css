@@ -9,13 +9,13 @@
 }
 
 .zoom-image {
-    width: 300px; 
+    width: 300px;
     height: 300px;
-    overflow: hidden; 
+    overflow: hidden;
     text-align: center;
 }
 
-.insta-image{
+.insta-image {
     width: auto;
     height: 250px;
     margin: 25px;
@@ -24,7 +24,7 @@
 .zoom-image img {
     transition: transform .5s ease;
 }
-  
+
 .zoom-image:hover img {
     transform: scale(1.2);
 }
@@ -35,11 +35,11 @@
     margin: 3px;
 }
 
-#design-title{
+#design-title {
     color: #FFB7B2;
 }
 
-#design-title::after{
+#design-title::after {
     content: "";
     margin-left: 5px;
     width: 5px;
@@ -47,4 +47,22 @@
     background: black;
     display: inline-block;
     animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+@media only screen and (max-width: 1375px) {
+    .image-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 40px;
+        justify-items: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .image-row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+        justify-items: center;
+    }
 }

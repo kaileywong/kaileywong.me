@@ -42,7 +42,7 @@
 .pic {
   transition: .5s ease;
   flex-grow: 1;
-  width: 300px;
+  width: 20vw;
   margin-right: 40px;
   border-radius: 50%;
 }

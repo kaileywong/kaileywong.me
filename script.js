@@ -1,6 +1,6 @@
 var i = 0;
-var txt = 'Kailey Wong'; /* The text */
-var speed = 80; /* The speed/duration of the effect in milliseconds */
+var txt = 'Kailey Wong';
+var speed = 80; /* duration of effect in ms */
 var pagepath = window.location.pathname;
 
 function typeWriter() {
@@ -12,25 +12,25 @@ function typeWriter() {
 }
 
 switch (pagepath) {
-  case ('/code.html'):
+  case ('/code/'):
     txt = 'coded creations';
     break;
-  case ('/design.html'):
+  case ('/design/'):
     txt = 'designs that shine';
     break;
-  case ('/writing.html'):
+  case ('/writing/'):
     txt = 'pen to paper';
     break;
-  case ('/music.html'):
+  case ('/music/'):
     txt = 'musical melodies';
     break;
-  case ('/projects.html'):
+  case ('/projects/'):
     txt = 'proactive projects';
     break;
-  case ('/resume.html'):
+  case ('/resume/'):
     txt = 'education, experience, etc.';
     break;
-  case ('/about.html'):
+  case ('/about/'):
     txt = 'all about me';
     break;
   default:
@@ -38,4 +38,3 @@ switch (pagepath) {
 }
 
 typeWriter();
-
