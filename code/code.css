@@ -1,28 +1,30 @@
-#code-title{
-    color: #FF9AA2;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+#code-title {
+  color: #FF9AA2;
 }
 
-#code-title::after{
-    content: "";
-    margin-left: 5px;
-    width: 5px;
-    height: 40px;
-    background: black;
-    display: inline-block;
-    animation: cursor-blink 1.5s steps(2) infinite;
+#code-title::after {
+  content: "";
+  margin-left: 5px;
+  width: 5px;
+  height: 40px;
+  background: black;
+  display: inline-block;
+  animation: cursor-blink 1.5s steps(2) infinite;
 }
-  
+
 .device-row {
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 1.5%;
-  margin-top: 1.5%;
+  margin-bottom: 2.5%;
+  margin-top: 2%.5;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
 
-.project{
+.project {
   margin-top: 20px;
   text-align: left;
   display: flex;
@@ -31,13 +33,9 @@
   align-items: center;
 }
 
-.project-text{
+.project-text {
   flex-grow: 1;
   margin: 0 30px 0;
-}
-
-.project-stack{
-  font-style: italic;
 }
 
 .project-image {
@@ -45,15 +43,112 @@
   flex-grow: 1;
 }
 
-.phone{
+.phone {
   width: 150px;
   margin-right: 125px;
   margin-left: 125px;
 
 }
 
-.computer{
+.computer {
   width: 400px;
+}
+
+.project-stack {
+  font-style: italic;
+}
+
+#skills-wrapper {
+  padding: 40px 0;
+  margin: 100px;
+  border-radius: 50px;
+  background-color: #fff0dd;
+}
+
+#skills-title {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-size: 50px;
+  font-weight: bold;
+  color: #FF9AA2;
+  text-shadow: 2px 2px 1px #d17a97;
+  margin-top: 20px;
+  background-color: inherit;
+  text-shadow: 1px black;
+}
+
+.skills-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 20px 0;
+  margin: 0 100px;
+  flex-wrap: wrap;
+  background-color: inherit;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 20px 30px;
+  background-color: inherit;
+}
+
+.skill-item:hover {
+  scale: 1.1;
+  transition: all .2s;
+}
+
+.logo {
+  width: auto;
+  height: 80px;
+  margin-bottom: 5px;
+  background-color: inherit;
+}
+
+.skill-name {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: inherit;
+}
+
+.project-links {
+  margin-top: 15px;
+}
+
+.btn {
+  border-radius: 50px;
+  padding: 10px 30px;
+  margin-right: 15px;
+  text-decoration: none;
+  border: 2px solid #FF9AA2;
+
+}
+
+.btn:hover {
+  background-color: #f87e89;
+  border: none;
+  color: white;
+  border: 2px solid #f87e89;
+}
+
+.bi {
+  background-color: inherit;
+  margin-right: 10px;
+}
+
+.live-project {
+  background-color: #FF9AA2;
+  color: white;
+}
+
+.project-code {
+  color: #FF9AA2;
+  font-weight: 500;
 }
 
 @-webkit-keyframes bob-on-hover {
@@ -61,10 +156,12 @@
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
+
   50% {
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
   }
+
   100% {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
@@ -76,10 +173,12 @@
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
+
   50% {
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
   }
+
   100% {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
@@ -99,8 +198,10 @@
     transform: translateY(-8px);
   }
 }
- 
-.bob:hover, .bob:focus, .bob-:active {
+
+.bob:hover,
+.bob:focus,
+.bob-:active {
   -webkit-animation-name: bob-float, bob-on-hover;
   animation-name: bob-float, bob-on-hover;
   -webkit-animation-duration: .3s, 1.5s;
@@ -118,8 +219,8 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .project {
-       flex-direction: column;
-       justify-content: center;
-    }
+  .project {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
