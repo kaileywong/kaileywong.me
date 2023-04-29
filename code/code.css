@@ -4,6 +4,10 @@
   color: #FF9AA2;
 }
 
+a {
+  color: #c9787f;
+}
+
 #code-title::after {
   content: "";
   margin-left: 5px;
