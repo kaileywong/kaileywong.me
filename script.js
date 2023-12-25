@@ -18,8 +18,11 @@ switch (pagepath) {
   case ('/design/'):
     txt = 'designs that shine';
     break;
-  case ('/writing/'):
-    txt = 'pen to paper';
+  // case ('/writing/'):
+  //   txt = 'pen to paper';
+  //   break;
+  case ('/presentations/'):
+    txt = 'powerful presentations';
     break;
   case ('/music/'):
     txt = 'musical melodies';

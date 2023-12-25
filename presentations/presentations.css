@@ -1,0 +1,72 @@
+#presentations-title {
+    color: #f8c4a1;
+}
+
+#presentations-title::after {
+    content: "";
+    margin-left: 5px;
+    width: 5px;
+    height: 40px;
+    background: black;
+    display: inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+.row {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.presentation {
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    font-size: 120%;
+    min-width: 50vw;
+}
+
+.presentation-text {
+    margin-left: 4rem;
+    max-width: 50vw;
+}
+
+.presentation-title {
+    margin-bottom: .75rem;
+}
+
+.presentations-type {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.presentations-desc {
+    flex-grow: 1;
+    line-height: 1.5em;
+}
+
+.presentation-links {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.bi {
+  background-color: inherit;
+  margin-right: 10px;
+}
+
+.video-btn {
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin: 10px 0;
+    text-decoration: none;
+    background-color: #f8c4a1;
+    color: white;
+    width: fit-content;
+}
